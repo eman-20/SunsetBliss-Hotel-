@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Sunset Bliss Hotel</title>
+
+  <style>
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  text-decoration: solid;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+/******************************* page 1 *******************************/
+.page_1{
+    background-image: url('home.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1903px;
+    height: 929px;
+
+}
+
+.navbar{
+    background: none;
+    font-family: calibri;
+    padding-right: 80px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.navdiv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: smaller;
+}
+
+.logo a{
+    font-size: 43px;
+    font-weight: 800;
+    color: white;
+}
+
+.logo span{
+    color:rgb(189, 151, 82);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+li a:hover{
+    color: rgb(189, 151, 82);
+}
+
+.inner_11{
+  width: 1903px;
+  height: 301px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  margin-bottom: 300px;
+
+}
+.heading{
+    color: rgba(255, 255, 255, 0.993);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.story{
+    color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: x-large;
+    font-variant: small-caps;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.book_btn {
+
+  width: 200px;
+  height: 50px;
+  background-color: rgb(189, 151, 82);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+}
+
+.book_btn:hover{
+  background: rgb(116, 93, 50);
+}
+
+/******************************* page 2 *******************************/
+
+.page_2{
+  background-color: rgb(189, 151, 82);
+  width: 1902px;
+  height: 929px;
+  display: flex;
+  align-items: center;
+}
+
+.inner_21{
+  background-color: white;
+  width: 70%;
+  height:929px;
+  position: absolute;
+  margin-right: 30%;
+  z-index: 2;
+
+}
+
+.inner_22{
+
+  border-radius: 5px;
+  width: 80%;
+  height:80%;
+  margin: auto;
+  z-index: 2;
+
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  align-items: center;
+
+}
+
+.about_img{
+
+  width: 38%;
+  height: 100%;
+  margin-left:  944px;
+  border-radius: 0 5px 5px 0;
+}
+
+.inner_23{
+
+  background-color: #F2EBE3;
+  border-radius: 5px 0 0 5px;
+  width: 944px;
+  height: 80%;
+  position: absolute;
+  padding: 30px;
+
+}
+
+#about_h{
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: #77512d;
+  font-size: 95px;
+  width: 500px;
+  height: auto;
+  margin: 150px 100px 40px 100px;
+}
+
+#about_p{
+
+  color: #6C7289;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  width: 500px;
+  line-height: 200%;
+  text-align: justify;
+  margin: 40px 100px 40px 100px;
+}
+
+.more_btn {
+  width: 500px;
+  height: 50px;
+  margin: 0px 100px 0px 100px;
+  background-color: rgb(189, 151, 82);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+}
+
+.more_btn:hover{
+  background: rgb(116, 93, 50);
+}
+
+/******************************* page 2 *******************************/
+.page_3{
+
+  background-color: #F2EBE3;
+  width: 1902px;
+  height: 929px;
+  padding-top: 120px;
+
+}
+
+#page3_h{
+  font-weight: bolder;
+  text-align: center;
+  color: #082c4e;
+  font-size: xxx-large;
+  padding-bottom: 120px;
+}
+.room-container {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.room {
+  width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #cccccc;
+  background-color: white;
+}
+
+.room:hover{
+  margin-bottom:  25px;
+  -webkit-transition:all .2s linear;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.room img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.room-type {
+  width: 500px;
+  color: rgb(189, 151, 82);
+  padding: 20px;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.room_descrption{
+  width: 500px;
+  padding: 0 20px 0 20px;
+  color: #6C7289;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  line-height: 200%;
+}
+
+.room_price{
+  width: 500px;
+  padding: 0 20px 0 20px;
+  color: red;
+  font-weight:
+  bold;
+}
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <!-- ******************************* page 1 ******************************* -->
+
+  <div class="page_1" id="home">
+
+    <nav class="navbar">
+
+      <div class="navdiv">
+
+        <div class="logo"><a href="file:///D:/Mid/hotel.html">Sunset<span>Bliss</span> Hotel</a></div>
+
+        <ul>
+
+          <li><a href="file:///D:/Mid/hotel.html">Home</a></li>
+          <li><a href="#about-link">About</a></li>
+          <li><a href="#room-link">Rooms</a></li>
+          <li><a href="guest.html">Guests</a></li>
+          <li><a href="billing.html">Billing and Payment</a></li>
+          <li><a href="staff.html">Staff</a></li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="inner_11">
+
+      <div class="heading" id="h">
+        <h1>Welcome To Our Luxury Rooms</h1>
+      </div>
+
+      <div class="story">Discover our world's #1 Luxury Room For VIP</div>
+
+      <div class="center">
+        <button class="book_btn">BOOK NOW!</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- ******************************* page 2 ******************************* -->
+  <div class="page_2" id="about-link">
+
+    <div class="inner_21">
+
+    </div>
+
+    <div class="inner_22">
+
+      <img src="about 1.jpg" class="about_img">
+
+      <div class="inner_23">
+
+        <h1 id="about_h">
+          ABOUT US
+        </h1>
+        <p id="about_p">
+          Learn about our journey, commitment to excellence, and the team behind our success.
+          Discover the essence of who we are and why we're your ideal choice.
+        </p>
+
+        <button class="more_btn">Read More</p>
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <!-- ******************************* page 3 ******************************* -->
+
+
+  <div class="page_3">
+
+    <p id="page3_h">Spacious Rooms</p>
+
+    <div class="room-container" id="room-link">
+
+      <div class="rooms">
+
+        <div class="room">
+
+          <img src="room1.jpg" alt="Deluxe">
+          <div class="room-type">Deluxe Suite</div>
+          <p class="room_descrption">Well-appointed rooms designed for guests who desire a more.</p>
+          <p class="room_price">RS20,000/night</p>
+
+        </div>
+
+        <div class="room">
+
+          <img src="room2.jpg" alt="Family">
+          <div class="room-type">Family Suite</div>
+          <p class="room_descrption">Ideal for larger groups and families providing comfort.</p>
+          <p class="room_price">RS28,000/night</p>
+
+        </div>
+
+        <div class="room">
+
+          <img src="room3.jpg" alt="Luxury">
+          <div class="room-type">Luxury Penthouse</div>
+          <p class="room_descrption">Top-tier accommodations usually on the highest floors of a hotel.</p>
+          <p class="room_price">RS45,000/night</p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
